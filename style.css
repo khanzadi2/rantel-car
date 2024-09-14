@@ -1,0 +1,406 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3563E9;
+
+}
+.search-bar {
+    
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-button, .filter-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.promo-card1 h2 p{
+    padding: 20px;
+    text-decoration: solid ;
+    font-weight: 70px;
+}
+.promo {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #e9ecef;
+    height: 300px;
+    color: white;
+    text-decoration: solid 1px;
+    
+}
+
+.promo-card {
+    background: linear-gradient(135deg, #3563e9 25%, transparent 25%) -36px 0/ 72px 72px, linear-gradient(225deg, rgba(53,99,233,0.5) 25%, transparent 25%) -36px 0/ 72px 72px, linear-gradient(315deg, #3563e9 25%, transparent 25%) 0 0/ 72px 72px, linear-gradient(45deg, rgba(53,99,233,0.5) 25%, #688cf5 25%) 0 0/ 72px 72px;
+background-color: #688cf5;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.promo-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+.promo-card1 {
+ 
+    background-image:  repeating-radial-gradient(circle at 0 0, transparent 0, #7bbafd 28px), repeating-linear-gradient(#54a6ff, #54a6ff);
+background-color: #67adf7;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+
+}
+.promo-card1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+.booking-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.option select, .option input {
+    margin: 10px 60px;
+    padding: 10px 90px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.swap-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.car-list {
+    padding: 40px;
+    background-color: #f8f9fa;
+}
+
+footer {
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+footer nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #adb5bd;
+}
+ body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .card:hover{
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
+        .card h2 {
+            margin-right: 100px;
+        }
+
+        .card p {
+            margin-right: 200px;
+            color: #777;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        
+
+        
+
+        .card .price {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card .price span {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .card button {
+            background-color:#3563E9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-left: 20px;
+
+        }
+
+        .card button:hover {
+            background-color: #0056b3;
+        }
+
+        .view-all {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .view-all a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .view-all a:hover {
+            text-decoration: underline;
+        }
+        .car img{
+            margin-top: -120px;
+            width: 70%;
+            margin-left: 130px;
+        }
+        .car1 img{
+            margin-top: -70px;
+            width: 55%;
+            margin-left: 180px;
+        }
+     
+
+/* CSS */
+.promo-card1 button{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 95%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 25%;
+}
+
+.promo-card1 button:disabled {
+  cursor: default;
+}
+
+.promo-card1 button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+/*button 2 css*/
+/* CSS */
+.promo-card button{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #54A6FF;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 95%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 25%;
+}
+
+.promo-card button:disabled {
+  cursor: default;
+}
+
+.promo-card button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.fa-heart{
+    margin-left: 200px;
+    color: gray;
+    
+}
+.fa-heart:hover{
+    color: rgb(228, 0, 0);
+    transition: 0.5s;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    color: rgb(139, 139, 139);
+}
+
+.icons i {
+    margin-right: 5px;
+}
+
+.last-button{
+    background-color:#3563E9;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-left: 590px;
+
+}
+body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container2 {
+            width: 1300px;
+            margin: 0 auto;
+            background-color: white;
+        }
+        
+        footer {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-left: 40px;
+            color: #3563E9;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .col {
+            width: 25%;
+            padding: 20px;
+        }
+        h2 {
+         
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: gray;
+            text-decoration: none;
+        }
+        .p1{
+  
+            
+            color: #333;
+        }
+       .p3{
+        margin-left: 40px;
+        color: gray;
+       }
